@@ -1,3 +1,4 @@
+
 /* SUMMARY
     1. GLOBAL
     2. LAYOUT
@@ -174,11 +175,11 @@
   
   /* Grid
       ============================= */
-  
+
   .row {
     display: flex;
-  }    
-
+  }
+  
   ul.row {
     margin: -1rem;
     padding: 0;
@@ -246,16 +247,16 @@
   /* Header
       ============================= */
   
+  .header {
+    padding: var(--header-padding);
+         position: relative;
+         z-index: 3;
+         background: transparent;
+  }
+
   .header-container {
     display: flex;
     justify-content: space-between;
-  }
-
-  .header {
-    padding: var(--header-padding);
-    position: relative;
-    z-index: 3;
-    background: transparent;
   }
   
   /* Footer
@@ -356,16 +357,15 @@
     padding: 10rem 40rem 2rem 0;
   }
 
-  /* Section Latest news 
+  /* Section Latest news
       ============================= */
-    
+  
   .section-latest-news .row {
     flex-direction: row-reverse;
   }
 
-  /* Section SERVICES 
+  /* Section SERVICES
       ============================= */
-
   .section-services .row {
     flex-wrap: wrap;
   }
